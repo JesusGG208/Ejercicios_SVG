@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <style>
+        svg {
+            border: 1px solid #000000;
+        }
+
+        .extremidades {
+            stroke: #cd803d;
+            stroke-width: 35px;
+            stroke-linecap: round;
+        }
+
+        .boca {
+            stroke: #ffffff;
+            stroke-width: 3px;
+            fill:#cd803d;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <svg width="300" height="300">
+
+        <!--Cabeza-->
+        <circle cx="150" cy="75" r="40" fill="#cd803d"/>
+
+        <!--Brazos-->
+        <line x1="100" y1="125" x2="200" y2="125" class="extremidades"/>
+        
+        <!--Piernas-->
+        <line x1="125" y1="200" x2="150" y2="125" class="extremidades"/>
+        <line x1="175" y1="200" x2="150" y2="125" class="extremidades"/>
+
+        <!--Boca-->
+        <rect x="135" y="85" rx="5" ry="5" width="30" height="10" class="boca" />
+
+        <!--Ojos-->
+        <circle cx="135" cy="70" r="4" fill="#ffffff"/>
+        <circle cx="165" cy="70" r="4" fill="#ffffff"/>
+
+        <!--Botones-->
+        <circle cx="150" cy="125" r="7"  fill="black"/>
+        <circle cx="150" cy="150" r="7"  fill="black"/>
+    </svg>
+    <script>
+
+    </script>
+</body>
+
+</html>
