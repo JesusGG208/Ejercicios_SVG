@@ -5,18 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 2</title>
     <style>
-        svg {
+        .house {
             border: 1px solid #000000;
         }
 
         .estructura {
             stroke:black;
+            fill: white;
+            stroke-width: 2px;
+        }
+
+        .tejado {
+            stroke-width: 15;
+            stroke:#d44c5c;
+            stroke-linecap: round;
+            fill: none;
         }
     </style>
 </head>
 <body>
-    <svg width="300" height="300">
-        <polygon points="20,20 45,45 60,7" class="estructura"/>    
+    <svg width="300" height="300" class = "house">
+        <!--Estructura-->
+        <polygon points="150,50 250,125 250,250 50,250 50,125" class="estructura"/>
+        
+        <!--Tejado-->
+        <polyline points="30,130 150,40 270,130" class="tejado"/>
+
+        <!--Puerta-->
+
+        <!--Ventana circular-->
+        
+        <!--Ventana rectangular-->
     </svg>
 </body>
 </html>
