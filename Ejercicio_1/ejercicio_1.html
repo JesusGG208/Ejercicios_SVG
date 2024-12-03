@@ -9,6 +9,10 @@
         svg {
             border: 1px solid #000000;
         }
+        
+        .cabeza{
+            fill:#cd803d;
+        }
 
         .extremidades {
             stroke: #cd803d;
@@ -22,7 +26,9 @@
             fill:#cd803d;
         }
 
-        
+        .ojos{
+            fill: #ffffff;
+        }
     </style>
 </head>
 
@@ -30,7 +36,7 @@
     <svg width="300" height="300">
 
         <!--Cabeza-->
-        <circle cx="150" cy="75" r="40" fill="#cd803d"/>
+        <circle cx="150" cy="75" r="40" class="cabeza"/>
 
         <!--Brazos-->
         <line x1="100" y1="125" x2="200" y2="125" class="extremidades"/>
@@ -43,12 +49,12 @@
         <rect x="135" y="85" rx="5" ry="5" width="30" height="10" class="boca" />
 
         <!--Ojos-->
-        <circle cx="135" cy="70" r="4" fill="#ffffff"/>
-        <circle cx="165" cy="70" r="4" fill="#ffffff"/>
+        <circle cx="135" cy="70" r="4" class="ojos"/>
+        <circle cx="165" cy="70" r="4" class="ojos"/>
 
         <!--Botones-->
-        <circle cx="150" cy="125" r="7"  fill="black"/>
-        <circle cx="150" cy="150" r="7"  fill="black"/>
+        <circle cx="150" cy="125" r="7"/>
+        <circle cx="150" cy="150" r="7"/>
     </svg>
 </body>
 
